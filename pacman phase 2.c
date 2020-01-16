@@ -56,12 +56,15 @@
 				maze[i][j]=c;	
 				}
 				
-			printf("if you want to play pacman type in: 'Y'\n");
+			printf("press enter to start the game.\n");
 			char start;
 			scanf("%c", &start);
-			if (start=='Y' || start=='y')
+			if (start=='\n')
 			{
-					printf("if you want to end the game at any point type in -1 \n");				
+					system("cls");				
+					printf("if you want to end the game at any point type in -1 \n");
+					sleep(1);
+					system("cls");				
 					print_maze(maze);			
 					int ch1, ch2;
 					int flag=0;

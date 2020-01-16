@@ -214,8 +214,8 @@
 		int foodishere;
 		if (maze[x][y-1]=='#')
 		{
-			system("cls");
-			printf("game over");
+			print_maze(maze);
+			printf("cant move there!");
 		}
 		else
 		{
@@ -242,8 +242,8 @@
 		int foodishere;
 		if (maze[x-1][y]=='#')
 		{
-			system("cls");
-			printf("game over");
+			print_maze(maze);
+			printf("cant move there!");
 		}
 		else
 		{
@@ -270,8 +270,8 @@
 		int foodishere;
 		if (maze[x+1][y]=='#')
 		{
-			system("cls");
-			printf("game over");
+			print_maze(maze);
+			printf("cant move there!");
 		}
 		else
 		{	

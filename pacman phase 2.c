@@ -85,7 +85,7 @@
 									if (cnt==checkfood(foodlist, cnt))
 									{
 										system("cls");
-										printf("congrats you beat the game");
+										printf("You ate all the food!");
 										flag++;
 										break;
 									} 
@@ -96,7 +96,7 @@
 									if (cnt==checkfood(foodlist, cnt))
 									{
 										system("cls");
-										printf("congrats you beat the game");
+										printf("You ate all the food!");
 										flag++;
 										break;
 									} 
@@ -107,7 +107,7 @@
 									if (cnt==checkfood(foodlist, cnt))
 									{
 										system("cls");
-										printf("congrats you beat the game");
+										printf("You ate all the food!");
 										flag++;
 										break;
 									} 
@@ -118,7 +118,7 @@
 									if (cnt==checkfood(foodlist, cnt))
 									{
 										system("cls");
-										printf("congrats you beat the game");
+										printf("You ate all the food!");
 										flag++;
 										break;
 									} 
